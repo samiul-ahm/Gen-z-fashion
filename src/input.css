@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "tailwindcss";
 
-@theme{
-    --color-GENZ-Green:#A4BC46;
-    --color-GENZ-BLACK:#363958;
-    --color-GENZ-ORANGE:#FABE4C;
-    --color-GENZ-LIGHT-DARK:#3E3E3E;
-    --color-GENZ-HEADER-BG:#FFFBF0;
-    --color-GENZ-HEAD-TEXT:#3C3C3C;
-    --color-GENZ-PARA:#3E3E3E;
+@theme {
+  --color-GENZ-Green: #a4bc46;
+  --color-GENZ-BLACK: #363958;
+  --color-GENZ-ORANGE: #fabe4c;
+  --color-GENZ-LIGHT-DARK: #3e3e3e;
+  --color-GENZ-HEADER-BG: #fffbf0;
+  --color-GENZ-HEAD-TEXT: #3c3c3c;
+  --color-GENZ-PARA: #3e3e3e;
+  --color-PRODUCT-BG: #f1f1f1;
 }
 
 .greenlinear {
-    background:linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+  background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+}
+
+.custom-shadow {
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
 }
