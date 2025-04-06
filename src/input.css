@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --color-GENZ-Green:#A4BC46;
+    --color-GENZ-BLACK:#363958;
+    --color-GENZ-ORANGE:#FABE4C;
+    --color-GENZ-LIGHT-DARK:#3E3E3E;
+    --color-GENZ-HEADER-BG:#FFFBF0;
+    --color-GENZ-HEAD-TEXT:#3C3C3C;
+    --color-GENZ-PARA:#3E3E3E;
+}
+
+.greenlinear {
+    background:linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+}
